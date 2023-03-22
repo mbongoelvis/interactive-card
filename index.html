@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>interactive-card</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+
+    <div class="section1">
+      <div class="card">
+        <div class="logo">
+          <img src="images/card-logo.svg" alt="">
+        </div>
+
+        <div class="word-para">
+          <p class="zero">0000 0000 0000 0000</p>
+          <div class="para2-sec">
+            <P>JAME APPLESEED</P>
+            <span>00/00</span>
+          </div>
+        </div>
+      </div>
+        <div class="card2">
+          
+        </div>
+    </div>
+
+     <div class="section2">
+
+      <div class="main">
+        <P>CARDHOLDER NAME</P>
+        <input type="text" placeholder="e.g. Jane Appleseed" id="name">
+        <p>CAED NUMBER</p>
+        <input type="text" placeholder="e.g. 1234 5678 9123 0000" id="number">
+        <div class="exp-month">
+          <div class="expire">
+            <p>EXP.DATE (MM/YY)</p>
+            <div class="month-year">
+              <input type="text" placeholder="MM" id="month">
+              <input type="text" placeholder="YY" id="year">
+            </div>
+          </div>
+          <div class="cvc">
+            <p>cvc</p>
+            <input type="text" placeholder="e.g.123" id="cvc">
+          </div>
+        </div>
+            <button>Confirm</button>
+      </div>
+
+     </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
