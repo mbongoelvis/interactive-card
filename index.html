@@ -34,11 +34,20 @@
 
      <div class="section2">
 
-      <div class="main">
+        <div class="submission appear">
+          <img src="images/icon-complete.svg" alt="">
+        <div class="para-noti">
+          <span>THANKS YOU!</span>
+          <P>We've added your card details</P>
+        </div>
+        <button>Continue</button>
+       </div>
+
+      <div class="main disappear">
         <P>CARDHOLDER NAME</P>
-        <input type="text" placeholder="e.g. Jane Appleseed" id="name">
+        <input type="text" placeholder="e.g. Jane Appleseed" id="name" required>
         <p>CAED NUMBER</p>
-        <input type="text" placeholder="e.g. 1234 5678 9123 0000" id="number">
+        <input type="text" maxlength="16" placeholder="e.g. 1234 5678 9123 0000" id="number">
         <div class="exp-month">
           <div class="expire">
             <p>EXP.DATE (MM/YY)</p>
@@ -52,7 +61,7 @@
             <input type="text" placeholder="e.g.123" id="cvc">
           </div>
         </div>
-            <button>Confirm</button>
+            <button class="submit">Confirm</button>
       </div>
 
      </div>
