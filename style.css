@@ -24,10 +24,10 @@
     align-items: center;
 }
 .disappear{
-    display: block;
+    display: none;
 }
 .submission{
-    display: flex;
+    display: none;
     align-items: center;
     flex-direction: column;
     justify-content: center;
@@ -36,7 +36,7 @@
     min-width: 30%;
 }
 .appear{
-    display: none;
+    display: block;
 }
 .submission p{
     color: hsl(279, 6%, 55%);
