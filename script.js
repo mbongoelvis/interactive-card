@@ -1,10 +1,11 @@
 let cardNumberInput = document.querySelector("#number");
 let submitButton = document.querySelector(".submit");
+let submission = document.querySelector(".submission")
 let Name = document.querySelector("#name");
 let cvc = document.querySelector("#cvc");
 let month = document.querySelector("#month");
 let year = document.querySelector("#year");
-let main = document.querySelector("#main");
+let main = document.querySelector(".main");
 let expression = /[a-zA-Z]/
    
  submitButton.addEventListener("click", function (event) {
@@ -48,7 +49,8 @@ let expression = /[a-zA-Z]/
      }
      else {
          year.style.border = "1px solid hsl(270, 3%, 87%)";
-     }
-     main.classList.add("disappear")
+         main.style.display = "none";
+         submission.style.display = "flex";
+     }    
 
  });
